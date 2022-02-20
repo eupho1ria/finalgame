@@ -8,6 +8,9 @@
     --text-yellow: #dae26a;
     --text-selected : #34D399;
     --cell-size: 100px;
+    
+    --tanjiro: url('./ticimg/tangiro.png');
+    --muzan: url('./ticimg/muzan.png');
 
   
 }
@@ -99,44 +102,23 @@ body{
 }
 
 .board.x .block:not(.x):not(.y):hover{
-    background: var(--female-1) var(--text-yellow) no-repeat;
-    opacity: 0.4;
-}
-
-.board.x2 .block:not(.x2):not(.y2):hover{
-    background: var(--female-2) var(--text-yellow) no-repeat;
+    background: var(--tanjiro) var(--text-yellow) no-repeat;
     opacity: 0.4;
 }
 
 .board.y .block:not(.y):not(.x):hover{
-    background: var(--male-1) #816df2 no-repeat;
-    opacity: 0.4;
-}
-
-.board.y2 .block:not(.y2):not(.x2):hover{
-    background: var(--male-2) #816df2 no-repeat;
+    background: var(--muzan) #816df2 no-repeat;
     opacity: 0.4;
 }
 
 
 .block.x{
-    background: var(--female-1) var(--text-yellow) no-repeat;
+    background: var(--tanjiro) var(--text-yellow) no-repeat;
     background-size: cover;
 }
-
-.block.x2{
-    background: var(--female-2) var(--text-yellow) no-repeat;
-    background-size: cover;
-}
-
 
 .block.y{
-    background: var(--male-1) #816df2  no-repeat;
-    background-size: cover;
-}
-
-.block.y2{
-    background: var(--male-2) #816df2 no-repeat;
+    background: var(--muzan) #816df2  no-repeat;
     background-size: cover;
 }
 
